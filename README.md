@@ -13,7 +13,7 @@ A fully functional **Battery Management System** designed for Electric Vehicle (
 - Real-time cell pack voltage and temperature monitoring
 - State of Charge (SoC) estimation
 - Fault detection and protection logic
-- I2C communication for cell monitoring IC
+- I2C communication for cell monitoring
 - UART data logging for debugging and analysis
 - ESP32 + Blynk IoT for wireless telemetry dashboard
 - MATLAB/Simulink HIL simulation for EV load profile validation
