@@ -4,7 +4,7 @@
 
 ##  Overview
 
-A fully functional **Battery Management System** designed for Electric Vehicle (EV) applications, built on the **STM32F407VG** microcontroller. The system monitors a **2S Li-Ion battery pack** in real time, estimates State of Charge (SoC), detects faults, and transmits live telemetry data to a mobile dashboard via **ESP32 and Blynk IoT**.
+A fully functional **Battery Management System** designed for Electric Vehicle (EV) applications, built on the **STM32F407VG** microcontroller. The system monitors a **3S Li-Ion battery pack** in real time, estimates State of Charge (SoC), detects faults, and transmits live telemetry data to a mobile dashboard via **ESP32 and Blynk IoT**.
 
 ---
 
@@ -26,7 +26,7 @@ A fully functional **Battery Management System** designed for Electric Vehicle (
 |---|---|
 | STM32F407VG | Main microcontroller |
 | ESP32 | Wi-Fi telemetry and IoT dashboard |
-| Li-Ion Cells (2S) | Battery pack |
+| Li-Ion Cells (3S) | Battery pack |
 | Cell Monitoring sensor | Voltage and temperature sensing via I2C |
 | Blynk IoT App | Real-time mobile dashboard |
 
@@ -45,7 +45,7 @@ A fully functional **Battery Management System** designed for Electric Vehicle (
 ##  System Architecture
 
 ```
-[Li-Ion 2S Pack]
+[Li-Ion 3S Pack]
       │
       ▼
 [Cell Monitoring IC] ──I2C──► [STM32F407VG]
